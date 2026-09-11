@@ -216,3 +216,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Databricks & Spark
+.databricks/
+.databricks_sync/
+checkpoints/
+checkpoint/
+*_checkpoint/
+*.log
+
+# Environment variables & secrets
+.env
+.env.*
+*.token
+*.pem
+
+# IDE / OS junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
